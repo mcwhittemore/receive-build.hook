@@ -5,7 +5,7 @@ var fs = require("fs");
 
 var hook = process.argv[2];
 
-var validHooks = ["post-update"];
+var validHooks = ["post-receive"];
 
 var regEx = /^refs\/tags\/v[0-9]*.[0-9]*.[0-9]*$/g;
 
